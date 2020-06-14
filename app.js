@@ -157,8 +157,9 @@ function setKittenMood(kitty) {
 
 function getStarted() {
   document.getElementById("welcome").remove();
+  loadKittens();
   drawKittens();
-
+  
 }
 
 function deleteKitten(id) {
@@ -186,4 +187,3 @@ function generateId() {
   );
 }
 drawKittens()
-loadKittens()
